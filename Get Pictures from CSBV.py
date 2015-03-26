@@ -18,7 +18,7 @@ folderPathName = raw_input("Drop the destination folder here :")
 
 def fullContactCollect(email):
 
-    api_key = "f5470dd8f0cffff9"
+    api_key = ""
     fullURL = "https://api.fullcontact.com/v2/person.json?apiKey=" + api_key +"&email=" + email
     print fullURL
     try:
